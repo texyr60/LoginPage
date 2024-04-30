@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #313131;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background-color: white;
+    width: 450px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px rgba(66, 68, 90, 1);
+    /* display: flex; */
+    justify-content: center;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.input-container {
+    width: 100%;
+    margin: 40px 0;
+    position: relative;
+}
+
+.input-container i {
+    position: absolute;
+    left: 0px;
+    top: 35px;
+    color: #313131;
+}
+
+.input-container input {
+    outline: none;
+    border: none;        
+    border-bottom: 1px solid #313113;
+    margin-top: 5px;
+    width: 100%;
+    padding: 7px;
+    padding-left: 20px; 
+}
+
+.input-container input::placeholder {
+    color: #313131;
+    letter-spacing: 1.1px;
+}
+
+.forgot {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.forgot a {
+    color: #313131;
+    text-decoration: none;
+    transition: all .3s;
+    border-bottom: 1px transparent solid;
+}
+
+.forgot a:hover {
+    border-bottom: 1px #313113 solid;
+}
+
+.btn {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.btn button {
+    outline: none;
+    border: none;
+    text-align: center;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #313113;
+    padding: 7px 0;
+    color: #fff;
+    box-shadow: 1px 1px 5px 0px rgba(66, 68, 90, 1);
+}
+
+.login-other {
+    text-align: center;
+    width: 100%;
+}
+
+.login-other p {
+    font-size: 16px;    
+    margin: 15px 0;
+}
+
+.logos-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.logos-container i {
+    font-size: 40px;
+    cursor: pointer;
+}
